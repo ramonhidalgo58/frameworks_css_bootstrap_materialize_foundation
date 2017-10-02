@@ -1,0 +1,60 @@
+body{
+  background-color: black;
+  color:white;
+}
+#contenidoBlog{
+  background-color: gray;
+  padding-top: 20px;
+}
+@media screen and (max-width: 600px) {
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  #imgComentario{
+    width: 50px;
+    height: 50px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 400px) {
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  #imgComentario{
+    width: 50px;
+    height: 50px;
+    float:left;
+  }
+}
+@media screen and (max-width: 300px) {
+  img{
+    width: 100%;
+    height: 100%;
+    float:left;
+  }
+  #imgComentario{
+    width: 50px;
+    height: 50px;
+    float:left;
+  }
+  .listaAlbumes{
+    color:yellow;
+  }
+}
+A{
+  font-size: 20px;
+  }
+A:link {
+  text-decoration:none;color:#000;
+}
+A:visited {
+  text-decoration:none;color:#000;
+}
+A:active
+{text-decoration:none;color:#000;
+}
+A:hover {
+  text-decoration:underline;color:#000;
+}
